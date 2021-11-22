@@ -2,7 +2,7 @@ package it.xpug.kata.birthdaygreetings.services.impl;
 
 import it.xpug.kata.birthdaygreetings.exceptions.NotificationRuntimeException;
 import it.xpug.kata.birthdaygreetings.services.NotificationService;
-import it.xpug.kata.birthdaygreetings.services.beans.NotificationMessage;
+import it.xpug.kata.birthdaygreetings.beans.NotificationMessage;
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

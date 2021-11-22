@@ -3,7 +3,7 @@ package it.xpug.kata.birthdaygreetings.services;
 import com.dumbster.smtp.SimpleSmtpServer;
 import com.dumbster.smtp.SmtpMessage;
 import it.xpug.kata.birthdaygreetings.exceptions.NotificationRuntimeException;
-import it.xpug.kata.birthdaygreetings.services.beans.NotificationMessage;
+import it.xpug.kata.birthdaygreetings.beans.NotificationMessage;
 import it.xpug.kata.birthdaygreetings.services.impl.MailService;
 import org.junit.After;
 import org.junit.Assert;

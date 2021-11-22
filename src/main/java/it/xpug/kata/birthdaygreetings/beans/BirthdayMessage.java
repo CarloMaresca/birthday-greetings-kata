@@ -1,7 +1,5 @@
 package it.xpug.kata.birthdaygreetings.beans;
 
-import it.xpug.kata.birthdaygreetings.services.beans.NotificationMessage;
-
 public class BirthdayMessage implements NotificationMessage {
     private static final String TEMPLATE_BODY = "Happy Birthday, dear %s!";
     private static final String TEMPLATE_SUBJECT = "Happy Birthday!";

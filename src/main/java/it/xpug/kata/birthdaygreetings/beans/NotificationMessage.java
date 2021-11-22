@@ -1,4 +1,4 @@
-package it.xpug.kata.birthdaygreetings.services.beans;
+package it.xpug.kata.birthdaygreetings.beans;
 
 public interface NotificationMessage {
     String getFrom();
