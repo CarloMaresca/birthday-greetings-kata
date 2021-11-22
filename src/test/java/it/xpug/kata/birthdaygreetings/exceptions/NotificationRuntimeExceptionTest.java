@@ -5,7 +5,7 @@ import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNull;
 
-public class NotificationExceptionTest {
+public class NotificationRuntimeExceptionTest {
     @Test
     public void testExceptionMessage() {
         assertEquals("equals message", new NotificationRuntimeException("message!").getMessage(), "message!");

@@ -14,7 +14,7 @@ public class Main {
 	private static final Logger log = LoggerFactory.getLogger(Main.class);
 
 	public static void main(String[] args) throws GreetingsException {
-		log.info("start");
+		log.info("start...");
 
 		GreetingsService<Date> service = new BirthdayService(
 				new MailService("localhost", 25),
@@ -22,5 +22,7 @@ public class Main {
 		);
 
 		service.sendGreetings(new Date());
+
+		log.info("end");
 	}
 }

@@ -1,0 +1,3 @@
+last_name, first_name, date_of_birth, email
+Mario, Rossi, 1982/11/22, mario.rossi@foobar.com
+Paolo, Bianchi, 1975/03/11, paolo.bianchi@foobar.com

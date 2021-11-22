@@ -35,7 +35,7 @@ public class EmployeeFileRepository implements EmployeeRepository {
                     .filter(Optional::isPresent)
                     .map(Optional::get);
         } catch (IOException e) {
-            throw new EmployeeFileRuntimeException(fileName);
+            throw new EmployeeFileRuntimeException(fileName, e);
         }
     }
 
